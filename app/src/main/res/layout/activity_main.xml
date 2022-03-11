@@ -580,6 +580,7 @@
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintEnd_toStartOf="@id/tv_jam"
                             app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
                             android:contentDescription="@string/icon_jam" />
                         <TextView
                             android:id="@+id/tv_jam"
@@ -590,7 +591,8 @@
                             android:textStyle="bold"
                             app:layout_constraintStart_toEndOf="@id/icon_jam"
                             app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintTop_toTopOf="@id/icon_jam"/>
+                            app:layout_constraintTop_toTopOf="@id/icon_jam"
+                            app:layout_constraintBottom_toBottomOf="@id/icon_jam"/>
                     </androidx.constraintlayout.widget.ConstraintLayout>
                 </androidx.cardview.widget.CardView>
 
