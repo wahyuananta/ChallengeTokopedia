@@ -18,6 +18,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
+            <!-- Background Lengkung -->
+
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/background_hijau"
                 android:layout_width="match_parent"
@@ -62,6 +64,8 @@
                 </androidx.cardview.widget.CardView>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- Menu Saldo -->
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cv_background_putih"
@@ -142,6 +146,8 @@
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </androidx.cardview.widget.CardView>
+
+            <!-- Menu Atas -->
 
             <HorizontalScrollView
                 android:id="@+id/hv_menu_atas"
@@ -315,6 +321,8 @@
 
             </HorizontalScrollView>
 
+            <!-- Banner -->
+
             <HorizontalScrollView
                 android:id="@+id/hsv_banner"
                 android:layout_width="384dp"
@@ -381,6 +389,9 @@
                     </androidx.cardview.widget.CardView>
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </HorizontalScrollView>
+
+
+            <!-- Menu Bawah -->
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:id="@+id/menu_bawah"
@@ -523,6 +534,8 @@
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
+            <!-- Kejar Diskon -->
+
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/kejar_diskon_cons"
                 android:layout_width="384dp"
@@ -608,6 +621,8 @@
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- Menu Produk -->
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/diskon_cons"
@@ -974,6 +989,8 @@
 
     </ScrollView>
 
+    <!-- Navbar Atas -->
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/navbar"
         android:layout_width="match_parent"
@@ -1068,6 +1085,8 @@
         </androidx.appcompat.widget.Toolbar>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Navbar Bawah -->
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/nav_bottom"
