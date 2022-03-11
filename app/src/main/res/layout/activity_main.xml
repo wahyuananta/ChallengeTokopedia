@@ -56,6 +56,7 @@
                         android:layout_marginStart="38dp"
                         android:layout_marginTop="6dp"
                         android:text="@string/dikirim"
+                        android:fontFamily="sans-serif-condensed-medium"
                         android:textColor="@color/white"/>
 
                 </androidx.cardview.widget.CardView>
@@ -178,6 +179,7 @@
                         android:text="@string/official_store"
                         android:textAlignment="center"
                         android:textSize="12sp"
+                        android:fontFamily="sans-serif-condensed-medium"
                         app:layout_constraintTop_toBottomOf="@id/icon_official"
                         app:layout_constraintStart_toStartOf="@id/icon_official"
                         app:layout_constraintEnd_toEndOf="@id/icon_official" />
@@ -202,6 +204,7 @@
                         android:textColor="@color/silver"
                         android:text="@string/lihat_semua"
                         android:textSize="12sp"
+                        android:fontFamily="sans-serif-condensed-medium"
                         app:layout_constraintTop_toBottomOf="@id/icon_lihat_semua"
                         app:layout_constraintStart_toStartOf="@id/icon_lihat_semua"
                         app:layout_constraintEnd_toEndOf="@id/icon_lihat_semua" />
@@ -227,6 +230,7 @@
                         android:text="@string/kebutuhan_harian"
                         android:textAlignment="center"
                         android:textSize="12sp"
+                        android:fontFamily="sans-serif-condensed-medium"
                         app:layout_constraintTop_toBottomOf="@id/icon_kebutuhan_harian"
                         app:layout_constraintStart_toStartOf="@id/icon_kebutuhan_harian"
                         app:layout_constraintEnd_toEndOf="@id/icon_kebutuhan_harian" />
@@ -252,6 +256,7 @@
                         android:text="@string/handphone_tablet"
                         android:textAlignment="center"
                         android:textSize="12sp"
+                        android:fontFamily="sans-serif-condensed-medium"
                         app:layout_constraintTop_toBottomOf="@id/icon_handphone"
                         app:layout_constraintStart_toStartOf="@id/icon_handphone"
                         app:layout_constraintEnd_toEndOf="@id/icon_handphone" />
@@ -277,6 +282,7 @@
                         android:text="@string/top_up_tagihan"
                         android:textAlignment="center"
                         android:textSize="12sp"
+                        android:fontFamily="sans-serif-condensed-medium"
                         app:layout_constraintTop_toBottomOf="@id/icon_topup"
                         app:layout_constraintStart_toStartOf="@id/icon_topup"
                         app:layout_constraintEnd_toEndOf="@id/icon_topup" />
@@ -300,6 +306,7 @@
                         android:textColor="@color/silver"
                         android:text="@string/keuangan"
                         android:textSize="12sp"
+                        android:fontFamily="sans-serif-condensed-medium"
                         app:layout_constraintTop_toBottomOf="@id/icon_keuangan"
                         app:layout_constraintStart_toStartOf="@id/icon_keuangan"
                         app:layout_constraintEnd_toEndOf="@id/icon_keuangan" />
@@ -386,9 +393,9 @@
 
                     <ImageButton
                         android:id="@+id/icon_bazzar"
-                        android:src="@drawable/icon_peduli_lindungi"
+                        android:src="@drawable/ic_bazar"
                         android:background="@null"
-                        android:scaleType="fitCenter"
+                        android:scaleType="center"
                         android:layout_width="68dp"
                         android:layout_height="68dp"
                         android:layout_marginTop="8dp"
@@ -405,6 +412,7 @@
                         android:text="@string/bazzar_hari_ini"
                         android:textAlignment="center"
                         android:textSize="12sp"
+                        android:fontFamily="sans-serif-condensed-medium"
                         app:layout_constraintTop_toBottomOf="@id/icon_bazzar"
                         app:layout_constraintStart_toStartOf="@id/icon_bazzar"
                         app:layout_constraintEnd_toEndOf="@id/icon_bazzar" />
@@ -415,7 +423,7 @@
                         android:layout_height="68dp"
                         android:src="@drawable/ic_live_shopping"
                         android:background="@null"
-                        android:scaleType="fitCenter"
+                        android:scaleType="center"
                         app:layout_constraintStart_toEndOf="@id/icon_bazzar"
                         app:layout_constraintTop_toTopOf="@id/icon_bazzar"
                         app:layout_constraintEnd_toStartOf="@id/icon_tokopedia_seru"
@@ -430,6 +438,7 @@
                         android:text="@string/live_shopping"
                         android:textAlignment="center"
                         android:textSize="12sp"
+                        android:fontFamily="sans-serif-condensed-medium"
                         app:layout_constraintTop_toBottomOf="@id/icon_live_shopping"
                         app:layout_constraintStart_toStartOf="@id/icon_live_shopping"
                         app:layout_constraintEnd_toEndOf="@id/icon_live_shopping" />
@@ -440,7 +449,7 @@
                         android:layout_height="68dp"
                         android:src="@drawable/ic_tokopedia_seru"
                         android:background="@null"
-                        android:scaleType="fitCenter"
+                        android:scaleType="center"
                         app:layout_constraintTop_toTopOf="@id/icon_live_shopping"
                         app:layout_constraintEnd_toStartOf="@id/icon_bangga_lokal"
                         app:layout_constraintStart_toEndOf="@id/icon_live_shopping"
@@ -455,6 +464,7 @@
                         android:text="@string/tokopedia_seru"
                         android:textAlignment="center"
                         android:textSize="12sp"
+                        android:fontFamily="sans-serif-condensed-medium"
                         app:layout_constraintTop_toBottomOf="@id/icon_tokopedia_seru"
                         app:layout_constraintStart_toStartOf="@id/icon_tokopedia_seru"
                         app:layout_constraintEnd_toEndOf="@id/icon_tokopedia_seru" />
@@ -464,7 +474,7 @@
                         android:layout_width="68dp"
                         android:layout_height="68dp"
                         android:background="@null"
-                        android:scaleType="fitCenter"
+                        android:scaleType="center"
                         android:src="@drawable/icon_bangga_lokal"
                         app:layout_constraintEnd_toStartOf="@id/icon_bayar_tempat"
                         app:layout_constraintStart_toEndOf="@id/icon_tokopedia_seru"
@@ -480,6 +490,7 @@
                         android:text="@string/bangga_lokal"
                         android:textAlignment="center"
                         android:textSize="12sp"
+                        android:fontFamily="sans-serif-condensed-medium"
                         app:layout_constraintTop_toBottomOf="@id/icon_bangga_lokal"
                         app:layout_constraintStart_toStartOf="@id/icon_bangga_lokal"
                         app:layout_constraintEnd_toEndOf="@id/icon_bangga_lokal" />
@@ -505,6 +516,7 @@
                         android:text="@string/bayar_di_tempat"
                         android:textAlignment="center"
                         android:textSize="12sp"
+                        android:fontFamily="sans-serif-condensed-medium"
                         app:layout_constraintTop_toBottomOf="@id/icon_bayar_tempat"
                         app:layout_constraintStart_toStartOf="@id/icon_bayar_tempat"
                         app:layout_constraintEnd_toEndOf="@id/icon_bayar_tempat" />
@@ -550,7 +562,7 @@
                     android:layout_width="138dp"
                     android:layout_height="wrap_content"
                     android:backgroundTint="@color/merah_marron"
-                    app:cardCornerRadius="12dp"
+                    app:cardCornerRadius="8dp"
                     app:layout_constraintStart_toEndOf="@id/tv_berakhir_dalam"
                     app:layout_constraintTop_toTopOf="@id/tv_berakhir_dalam"
                     app:layout_constraintBottom_toBottomOf="@id/tv_berakhir_dalam">
@@ -575,6 +587,7 @@
                             android:layout_height="wrap_content"
                             android:text="@string/waktu_diskon"
                             android:textColor="@color/white"
+                            android:textStyle="bold"
                             app:layout_constraintStart_toEndOf="@id/icon_jam"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintTop_toTopOf="@id/icon_jam"/>
@@ -615,7 +628,7 @@
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:id="@+id/diskon_menu_cons"
-                    android:layout_width="384dp"
+                    android:layout_width="match_parent"
                     android:layout_height="250dp"
                     app:layout_constraintTop_toTopOf="@id/diskon_cons"
                     app:layout_constraintStart_toStartOf="@id/diskon_cons"
@@ -625,6 +638,7 @@
                         android:id="@+id/hsv_menu_cons"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
                         app:layout_constraintTop_toTopOf="@id/diskon_menu_cons"
                         app:layout_constraintStart_toStartOf="@id/diskon_menu_cons"
                         app:layout_constraintEnd_toEndOf="@id/diskon_menu_cons"
@@ -641,7 +655,7 @@
                                 android:background="@color/white"
                                 app:cardCornerRadius="12dp"
                                 android:elevation="6dp"
-                                android:layout_marginEnd="12dp"
+                                android:layout_marginHorizontal="12dp"
                                 app:layout_constraintTop_toTopOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintEnd_toStartOf="@id/cv_product_two">
@@ -678,6 +692,7 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:text="@string/harga_awal_one"
+                                        android:fontFamily="sans-serif-condensed-medium"
                                         app:layout_constraintTop_toTopOf="@id/tv_diskon"
                                         app:layout_constraintStart_toEndOf="@id/tv_diskon"
                                         app:layout_constraintBottom_toBottomOf="@id/tv_diskon"/>
@@ -707,6 +722,7 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:text="@string/jakarta_barat"
+                                        android:fontFamily="sans-serif-condensed-medium"
                                         app:layout_constraintTop_toTopOf="@id/icon_lokasi"
                                         app:layout_constraintStart_toEndOf="@id/icon_lokasi"
                                         app:layout_constraintBottom_toBottomOf="@id/icon_lokasi"/>
@@ -727,6 +743,7 @@
                                         android:layout_height="wrap_content"
                                         android:text="@string/segera_habis_one"
                                         android:textStyle="bold"
+                                        android:fontFamily="sans-serif-condensed-medium"
                                         app:layout_constraintTop_toBottomOf="@id/icon_bebas_ongkir"
                                         app:layout_constraintStart_toStartOf="@id/icon_bebas_ongkir"
                                         app:layout_constraintBottom_toBottomOf="parent"/>
@@ -778,6 +795,7 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:text="@string/harga_awal_two"
+                                        android:fontFamily="sans-serif-condensed-medium"
                                         app:layout_constraintTop_toTopOf="@id/tv_diskon_two"
                                         app:layout_constraintStart_toEndOf="@id/tv_diskon_two"
                                         app:layout_constraintBottom_toBottomOf="@id/tv_diskon_two"/>
@@ -807,6 +825,7 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:text="@string/lokasi_two"
+                                        android:fontFamily="sans-serif-condensed-medium"
                                         app:layout_constraintTop_toTopOf="@id/icon_lokasi_two"
                                         app:layout_constraintStart_toEndOf="@id/icon_lokasi_two"
                                         app:layout_constraintBottom_toBottomOf="@id/icon_lokasi_two"/>
@@ -827,6 +846,7 @@
                                         android:layout_height="wrap_content"
                                         android:text="@string/segera_habis_two"
                                         android:textStyle="bold"
+                                        android:fontFamily="sans-serif-condensed-medium"
                                         app:layout_constraintTop_toBottomOf="@id/icon_bebas_ongkir_two"
                                         app:layout_constraintStart_toStartOf="@id/icon_bebas_ongkir_two"
                                         app:layout_constraintBottom_toBottomOf="parent"/>
@@ -842,6 +862,7 @@
                                 android:background="@color/white"
                                 app:cardCornerRadius="12dp"
                                 android:elevation="6dp"
+                                android:layout_marginEnd="12dp"
                                 app:layout_constraintTop_toTopOf="parent"
                                 app:layout_constraintStart_toEndOf="@id/cv_product_two"
                                 app:layout_constraintEnd_toEndOf="parent">
@@ -878,6 +899,7 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:text="@string/harga_awal_three"
+                                        android:fontFamily="sans-serif-condensed-medium"
                                         app:layout_constraintTop_toTopOf="@id/tv_diskon_three"
                                         app:layout_constraintStart_toEndOf="@id/tv_diskon_three"
                                         app:layout_constraintBottom_toBottomOf="@id/tv_diskon_three"/>
@@ -889,6 +911,7 @@
                                         android:text="@string/diskon_three"
                                         android:textColor="@color/pink_text"
                                         android:background="@color/pink"
+                                        android:fontFamily="sans-serif-condensed-medium"
                                         app:layout_constraintTop_toBottomOf="@id/tv_harga_produk_three"
                                         app:layout_constraintStart_toStartOf="@id/tv_harga_produk_three"
                                         app:layout_constraintBottom_toTopOf="@id/icon_lokasi_three"/>
@@ -907,6 +930,7 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:text="@string/lokasi_three"
+                                        android:fontFamily="sans-serif-condensed-medium"
                                         app:layout_constraintTop_toTopOf="@id/icon_lokasi_three"
                                         app:layout_constraintStart_toEndOf="@id/icon_lokasi_three"
                                         app:layout_constraintBottom_toBottomOf="@id/icon_lokasi_three"/>
@@ -927,6 +951,7 @@
                                         android:layout_height="wrap_content"
                                         android:text="@string/segera_habis_three"
                                         android:textStyle="bold"
+                                        android:fontFamily="sans-serif-condensed-medium"
                                         app:layout_constraintTop_toBottomOf="@id/icon_bebas_ongkir_three"
                                         app:layout_constraintStart_toStartOf="@id/icon_bebas_ongkir_three"
                                         app:layout_constraintBottom_toBottomOf="parent"/>
@@ -938,87 +963,12 @@
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
                     </HorizontalScrollView>
+
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-
-        <!--            <HorizontalScrollView-->
-        <!--                android:id="@+id/hsv_diskon"-->
-        <!--                android:layout_width="384dp"-->
-        <!--                android:layout_height="228dp"-->
-        <!--                android:fillViewport="true"-->
-        <!--                app:layout_constraintTop_toBottomOf="@id/tv_kejar_diskon"-->
-        <!--                app:layout_constraintStart_toStartOf="parent"-->
-        <!--                app:layout_constraintEnd_toEndOf="parent">-->
-
-        <!--                <androidx.constraintlayout.widget.ConstraintLayout-->
-        <!--                    android:id="@+id/diskon_cons"-->
-        <!--                    android:layout_width="match_parent"-->
-        <!--                    android:layout_height="match_parent">-->
-
-        <!--                    <androidx.cardview.widget.CardView-->
-        <!--                        android:id="@+id/cv_barang_one"-->
-        <!--                        android:layout_width="226dp"-->
-        <!--                        android:layout_height="160dp"-->
-        <!--                        android:layout_margin="6dp"-->
-        <!--                        app:layout_constraintTop_toTopOf="@id/diskon_cons"-->
-        <!--                        app:layout_constraintStart_toStartOf="@id/diskon_cons"-->
-        <!--                        app:layout_constraintBottom_toBottomOf="@id/diskon_cons"-->
-        <!--                        app:layout_constraintEnd_toStartOf="@id/cv_banner_two">-->
-
-        <!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
-        <!--                            android:id="@+id/cons_barang_one"-->
-        <!--                            android:layout_width="match_parent"-->
-        <!--                            android:layout_height="wrap_content">-->
-
-        <!--                            <ImageView-->
-        <!--                                android:layout_width="match_parent"-->
-        <!--                                android:layout_height="match_parent"-->
-        <!--                                android:src="@drawable/banner_tokped"-->
-        <!--                                app:layout_constraintTop_toTopOf="@id/cons_barang_one"/>-->
-        <!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
-
-        <!--                    </androidx.cardview.widget.CardView>-->
-
-        <!--                    <androidx.cardview.widget.CardView-->
-        <!--                        android:id="@+id/cv_banner_two"-->
-        <!--                        android:layout_width="226dp"-->
-        <!--                        android:layout_height="96dp"-->
-        <!--                        android:layout_margin="6dp"-->
-        <!--                        app:layout_constraintTop_toTopOf="@id/diskon_cons"-->
-        <!--                        app:layout_constraintStart_toEndOf="@id/cv_banner_one"-->
-        <!--                        app:layout_constraintEnd_toStartOf="@id/cv_banner_three">-->
-        <!--                        <ImageView-->
-        <!--                            android:layout_width="match_parent"-->
-        <!--                            android:layout_height="match_parent"-->
-        <!--                            android:src="@drawable/banner_tokped_two" />-->
-        <!--                        <TextView-->
-        <!--                            android:layout_width=""-->
-        <!--                            android:layout_height=""-->
-        <!--                    </androidx.cardview.widget.CardView>-->
-
-        <!--                    <androidx.cardview.widget.CardView-->
-        <!--                        android:id="@+id/cv_banner_three"-->
-        <!--                        android:layout_width="186dp"-->
-        <!--                        android:layout_height="96dp"-->
-        <!--                        android:layout_margin="6dp"-->
-        <!--                        app:layout_constraintTop_toTopOf="@id/banner_cons"-->
-        <!--                        app:layout_constraintStart_toEndOf="@id/cv_banner_two"-->
-        <!--                        app:layout_constraintBottom_toBottomOf="@id/banner_cons"-->
-        <!--                        app:layout_constraintEnd_toEndOf="@id/banner_cons">-->
-        <!--                        <ImageView-->
-        <!--                            android:layout_width="match_parent"-->
-        <!--                            android:layout_height="match_parent"-->
-        <!--                            android:src="@drawable/banner_tokped_three" />-->
-        <!--                    </androidx.cardview.widget.CardView>-->
-        <!--                </androidx.constraintlayout.widget.ConstraintLayout>-->
-        <!--            </HorizontalScrollView>-->
-
-        <!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
 
     </ScrollView>
 
