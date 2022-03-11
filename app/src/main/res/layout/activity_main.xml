@@ -55,7 +55,8 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="38dp"
                         android:layout_marginTop="6dp"
-                        android:text="@string/dikirim"/>
+                        android:text="@string/dikirim"
+                        android:textColor="@color/white"/>
 
                 </androidx.cardview.widget.CardView>
 
