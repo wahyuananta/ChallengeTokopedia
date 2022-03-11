@@ -119,6 +119,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Rp109.048"
+                        android:textSize="16sp"
                         android:textStyle="bold"
                         app:layout_constraintStart_toEndOf="@id/icon_coin"
                         app:layout_constraintTop_toTopOf="@+id/background_putih_cons"
@@ -171,7 +172,7 @@
                         android:textColor="@color/silver"
                         android:text="Official\nStore"
                         android:textAlignment="center"
-                        android:textSize="13sp"
+                        android:textSize="12sp"
                         app:layout_constraintTop_toBottomOf="@id/icon_official"
                         app:layout_constraintStart_toStartOf="@id/icon_official"
                         app:layout_constraintEnd_toEndOf="@id/icon_official" />
@@ -194,7 +195,7 @@
                         android:layout_height="wrap_content"
                         android:textColor="@color/silver"
                         android:text="Lihat Semua"
-                        android:textSize="13sp"
+                        android:textSize="12sp"
                         app:layout_constraintTop_toBottomOf="@id/icon_lihat_semua"
                         app:layout_constraintStart_toStartOf="@id/icon_lihat_semua"
                         app:layout_constraintEnd_toEndOf="@id/icon_lihat_semua" />
@@ -218,7 +219,7 @@
                         android:textColor="@color/silver"
                         android:text="Kebutuhan\nHarian"
                         android:textAlignment="center"
-                        android:textSize="14sp"
+                        android:textSize="12sp"
                         app:layout_constraintTop_toBottomOf="@id/icon_kebutuhan_harian"
                         app:layout_constraintStart_toStartOf="@id/icon_kebutuhan_harian"
                         app:layout_constraintEnd_toEndOf="@id/icon_kebutuhan_harian" />
@@ -242,7 +243,7 @@
                         android:textColor="@color/silver"
                         android:text="Handphone\n&amp; Tablet"
                         android:textAlignment="center"
-                        android:textSize="13sp"
+                        android:textSize="12sp"
                         app:layout_constraintTop_toBottomOf="@id/icon_handphone"
                         app:layout_constraintStart_toStartOf="@id/icon_handphone"
                         app:layout_constraintEnd_toEndOf="@id/icon_handphone" />
@@ -266,7 +267,7 @@
                         android:textColor="@color/silver"
                         android:text="Top-Up &amp;\nTagihan"
                         android:textAlignment="center"
-                        android:textSize="13sp"
+                        android:textSize="12sp"
                         app:layout_constraintTop_toBottomOf="@id/icon_topup"
                         app:layout_constraintStart_toStartOf="@id/icon_topup"
                         app:layout_constraintEnd_toEndOf="@id/icon_topup" />
@@ -288,7 +289,7 @@
                         android:layout_height="wrap_content"
                         android:textColor="@color/silver"
                         android:text="Keuangan"
-                        android:textSize="13sp"
+                        android:textSize="12sp"
                         app:layout_constraintTop_toBottomOf="@id/icon_keuangan"
                         app:layout_constraintStart_toStartOf="@id/icon_keuangan"
                         app:layout_constraintEnd_toEndOf="@id/icon_keuangan" />
@@ -390,7 +391,7 @@
                         android:textColor="@color/silver"
                         android:text="Bazzar Hari \nIni"
                         android:textAlignment="center"
-                        android:textSize="13sp"
+                        android:textSize="12sp"
                         app:layout_constraintTop_toBottomOf="@id/icon_bazzar"
                         app:layout_constraintStart_toStartOf="@id/icon_bazzar"
                         app:layout_constraintEnd_toEndOf="@id/icon_bazzar" />
@@ -414,7 +415,7 @@
                         android:textColor="@color/silver"
                         android:text="Live \nshopping"
                         android:textAlignment="center"
-                        android:textSize="13sp"
+                        android:textSize="12sp"
                         app:layout_constraintTop_toBottomOf="@id/icon_live_shopping"
                         app:layout_constraintStart_toStartOf="@id/icon_live_shopping"
                         app:layout_constraintEnd_toEndOf="@id/icon_live_shopping" />
@@ -438,7 +439,7 @@
                         android:textColor="@color/silver"
                         android:text="Tokopedia \nSeru"
                         android:textAlignment="center"
-                        android:textSize="13sp"
+                        android:textSize="12sp"
                         app:layout_constraintTop_toBottomOf="@id/icon_tokopedia_seru"
                         app:layout_constraintStart_toStartOf="@id/icon_tokopedia_seru"
                         app:layout_constraintEnd_toEndOf="@id/icon_tokopedia_seru" />
@@ -462,7 +463,7 @@
                         android:textColor="@color/silver"
                         android:text="Bangga \nLokal"
                         android:textAlignment="center"
-                        android:textSize="13sp"
+                        android:textSize="12sp"
                         app:layout_constraintTop_toBottomOf="@id/icon_bangga_lokal"
                         app:layout_constraintStart_toStartOf="@id/icon_bangga_lokal"
                         app:layout_constraintEnd_toEndOf="@id/icon_bangga_lokal" />
@@ -486,24 +487,84 @@
                         android:textColor="@color/silver"
                         android:text="Bayar di\nTempat"
                         android:textAlignment="center"
-                        android:textSize="13sp"
+                        android:textSize="12sp"
                         app:layout_constraintTop_toBottomOf="@id/icon_bayar_tempat"
                         app:layout_constraintStart_toStartOf="@id/icon_bayar_tempat"
                         app:layout_constraintEnd_toEndOf="@id/icon_bayar_tempat" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <TextView
-                android:id="@+id/tv_kejar_diskon"
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/kejar_diskon_cons"
                 android:layout_width="384dp"
                 android:layout_height="wrap_content"
-                android:text="Kejar Diskon"
-                android:textSize="22sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"
                 app:layout_constraintTop_toBottomOf="@id/menu_bawah"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"/>
+                app:layout_constraintEnd_toEndOf="parent">
+
+                <TextView
+                    android:id="@+id/tv_kejar_diskon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kejar Diskon"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    app:layout_constraintTop_toTopOf="@id/kejar_diskon_cons"
+                    app:layout_constraintStart_toStartOf="@id/kejar_diskon_cons"
+                    app:layout_constraintEnd_toEndOf="@id/kejar_diskon_cons"/>
+
+                <TextView
+                    android:id="@+id/tv_berakhir_dalam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Berakhir dalam"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    app:layout_constraintTop_toBottomOf="@id/tv_kejar_diskon"
+                    app:layout_constraintStart_toStartOf="@id/kejar_diskon_cons"/>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv_timer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    app:layout_constraintStart_toEndOf="@id/tv_berakhir_dalam"
+                    app:layout_constraintTop_toTopOf="@id/tv_berakhir_dalam"
+                    app:layout_constraintBottom_toBottomOf="@id/tv_berakhir_dalam">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_timer_diskon"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lihat Semua"
+                    android:textStyle="bold"
+                    android:textColor="@color/green_tokopedia"
+                    app:layout_constraintEnd_toEndOf="@id/kejar_diskon_cons"
+                    app:layout_constraintTop_toTopOf="@id/tv_berakhir_dalam"
+                    app:layout_constraintBottom_toBottomOf="@id/tv_berakhir_dalam"/>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="384dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/kejar_diskon_cons"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
 
